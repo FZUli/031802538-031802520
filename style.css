@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "STHeiti";
+}
+.bg{
+	background: url('img/background.jpg');
+    background-size: cover;
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    -webkit-filter: blur(15px);
+            filter: blur(15px);
+    z-index: -1;
+}
+.mask {
+  width: 100px;
+  height: 100px;
+  margin-top:15px;
+  background-image: url('img/tree.png');
+  background-size: cover;
+  border-radius: 15px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin-top:5px;
+}
+
+.center {
+	border-color:#fff;
+	float:left;
+    display: block;
+    border-radius: 10px;
+}
+
+.button1 {
+	background-color:#fff;
+	color:#6AAFD1;
+	float:left;
+    width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.button2 {
+	background-color:#fff;
+	color:#6AAFD1;
+	float:left;
+    width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+    margin-left:30px;
+}
+
+#title {
+    text-align: center;
+    font-family: "STHeiti";
+    font-size: 28px;
+    color:#fff;
+    line-height: 55px;
+}
