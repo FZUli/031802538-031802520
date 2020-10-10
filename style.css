@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: "STHeiti";
+    font-family: "Microsoft YaHei";
 }
 .bg{
 	background: url('img/background.jpg');
@@ -15,8 +15,8 @@ body {
     left: -20px;
     right: -20px;
     bottom: -20px;
-    -webkit-filter: blur(15px);
-            filter: blur(15px);
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
     z-index: -1;
 }
 .mask {
@@ -36,38 +36,42 @@ p {
 .flex-container {
     background-size: 100% 100%;
     background-attachment: fixed;
-    margin-top:5px;
+    margin-top:16px;
 }
 
 .center {
-	border-color:#fff;
+    border-color:rgb(65, 74, 95);
+    border-width: 2px;
 	float:left;
     display: block;
     border-radius: 10px;
+    font-size: 18px;
 }
 
 .button1 {
-	background-color:#fff;
-	color:#6AAFD1;
-	float:left;
-    width: 100px;
-    padding: 5px;
-    border-radius: 7px;
+	background-color:rgb(126, 214, 248);
+	color:#ffffff;
+    float:left;
+    width: 120px;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 18px;
 }
 
 .button2 {
-	background-color:#fff;
-	color:#6AAFD1;
+	background-color:rgb(126, 214, 248);
+	color:#ffffff;
 	float:left;
-    width: 100px;
-    padding: 5px;
-    border-radius: 7px;
-    margin-left:30px;
+    width: 120px;
+    padding: 6px;
+    border-radius: 20px;
+    margin-left:80px;
+    font-size: 18px;
 }
 
 #title {
     text-align: center;
-    font-family: "STHeiti";
+    font-family: "Microsoft YaHei";
     font-size: 28px;
     color:#fff;
     line-height: 55px;
