@@ -127,7 +127,7 @@
                     left: 220,
                 },
                 width = 1200- margin.right - margin.left ;
-                height = w*200 ;
+                height = w*200 ; //根据节点个数设置树的高度
 
             var i = 0,
                 duration = 750, //过渡延迟时间
@@ -163,7 +163,7 @@
                 var nodes = tree.nodes(root).reverse(),
                     links = tree.links(nodes);
 
-                // 设置y坐标点，每层占180px
+                // 设置y坐标点，每层占250px
                 nodes.forEach(function(d) {
                     d.y = d.depth * 250;
                 });
@@ -210,6 +210,7 @@
                     .attr("transform", function(d) {
                         return "translate(" + d.y + "," + d.x + ")";
                     });
+                //设置树中节点的框及文字布局
                 nodeUpdate.select("rect")
                     .attr("x", -46)
                     .attr("y", -16)
