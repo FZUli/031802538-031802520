@@ -1,11 +1,11 @@
-##目录说明
+#目录说明
 
 - img文件夹存放相关图标和背景图
 - js文件夹存放下载的js函数库，以便调用
 - style文件即web页面的样式设计，由html文件调用
 - tree文件即最终的web文件，调用以上内容
 
-##使用说明
+#使用说明
 
 1、在github上下载（code→Download ZIP）至电脑并解压成文件夹
 2、在解压出的文件夹中找到tree.html，右键点击打开方式选择Google Chrome打开
