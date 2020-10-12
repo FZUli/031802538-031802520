@@ -7,9 +7,9 @@
 
 ## 使用说明
 
-- 1、在github上下载（code→Download ZIP）至电脑并解压成文件夹
-- 2、在解压出的文件夹中找到tree.html，右键点击打开方式选择Google Chrome打开
-- 3、在输入框中输入相应的测试数据，如：
+- 在github上下载（code→Download ZIP）至电脑并解压成文件夹
+- 在解压出的文件夹中找到tree.html，右键点击打开方式选择Google Chrome打开
+- 在输入框中输入相应的测试数据，如：
 
 导师：张三
 
